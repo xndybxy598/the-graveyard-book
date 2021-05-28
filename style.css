@@ -13,6 +13,7 @@ h1 {
     padding-top: 75px;
     text-shadow: 2px 2px #BDAA00;
     font-size: 30px;
+    font-family: 'Limelight', cursive;
 }
 
 p {
@@ -46,6 +47,7 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
+    font-family: 'Limelight', cursive;
 
 }
 
@@ -53,3 +55,10 @@ p {
     background-color:#BDAA00;
 }
 
+h2{
+    font-family: 'Limelight', cursive;
+}
+
+h3{
+    font-family: 'Limelight', cursive;
+}

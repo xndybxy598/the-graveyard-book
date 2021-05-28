@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(#FFF8E1 0%, #1A237E 100%);
+    background-repeat: no repeat;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    border-radius: 5%
+}
+
+h1 {
+    padding-top: 75px;
+    text-shadow: 2px 2px #BDAA00;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 18;
+}
+
+.line {
+    background-color: aliceblue;
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+}
+
+.links:hover {
+    background-color:#BDAA00;
+}
+

@@ -16,13 +16,11 @@ h1 {
     font-family: 'Limelight', cursive;
 }
 
-p {
-    color: white;
-}
 
 #bio {
     padding: 50px;
     font-size: 18;
+    color: black;
 }
 
 .line {
@@ -39,6 +37,7 @@ p {
     right: 30px;
     z-index: 10;
     cursor: pointer;
+   
 }
 
 .links {
@@ -52,13 +51,43 @@ p {
 }
 
 .links:hover {
-    background-color:#BDAA00;
+    background-color: #BDAA00;
 }
 
-h2{
+h2 {
     font-family: 'Limelight', cursive;
 }
 
-h3{
+h3 {
     font-family: 'Limelight', cursive;
+}
+
+#favoritecharacter {
+    color: white;
+}
+
+#otherworks {
+    color: white;
+}
+
+#inspiration {
+    color: white;
+}
+
+#contact {
+    color: white;
+}
+
+a{
+    
+    color:black;
+}
+
+inspoarticle{
+    text-decoration: underline;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth
 }

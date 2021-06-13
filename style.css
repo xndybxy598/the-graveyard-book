@@ -2,6 +2,7 @@ body {
     background: linear-gradient(#FFF8E1 0%, #1A237E 100%);
     background-repeat: no repeat;
     text-align: center;
+    margin: 0;
 }
 
 img {
@@ -32,26 +33,34 @@ h1 {
 
 .menu {
     list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
     z-index: 10;
     cursor: pointer;
-
+    color: white;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+    padding-left: 150px;
+    background: black;
+    
 }
 
 .links {
     float: left;
     padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-bottom: 5px;
-    font-family: 'Limelight', cursive;
-
+    font-size: 20px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
 }
 
+
+
 .links:hover {
-    background-color: #BDAA00;
+    background-color: #BDAA00; 
+    color: black;
+    font-size:25px;
 }
 
 h2 {
@@ -79,16 +88,14 @@ h3 {
 }
 
 a {
-
-    color: black;
+    color: white;
 }
 
-
-img {
+#tts {
     transition: transform 0.2s;
 }
 
-img:hover {
+#tts:hover {
     transform: scale(0.9);
 }
 
@@ -97,11 +104,31 @@ img:hover {
     color: white;
 }
 
-inspoarticle {
-    text-decoration: underline;
+#inspoarticle {
+    text-decoration: underline !important;
     color: white;
 }
 
 html {
     scroll-behavior: smooth;
 }
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 a {
+    color: goldenrod;
+    text-shadow: none;
+    
+}
+
+.contact_1 h3 {
+    display: inline;
+    color: goldenrod;
+}
+
+a{
+    text-decoration: none;
+}
+
